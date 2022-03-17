@@ -1,0 +1,84 @@
+.imgCart{
+    height: 5em;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.flexItems{
+    display: flex;
+    align-items: center;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexQuantity{
+    display: flex;
+    align-items: center;
+}
+
+.txtContainer{
+    margin-top: 8px;
+}
+
+.txtName{
+    font-size: 1.50rem;
+    font-weight: 700;
+}
+
+.txtPrice{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.txtQuantity{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.buttonRemove{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    width: 20rem;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+.input-name,
+.input-tel,
+.input-email{
+    padding: 0.5rem;
+    border: 1px solid #ebabba;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+
+@media (max-width:768px){
+    .flexContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .flexItems{
+        flex-direction: column;
+    }
+
+    .flexQuantity{
+        flex-direction: column;
+    }
+}

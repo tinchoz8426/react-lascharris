@@ -1,0 +1,8 @@
+.contador {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(79, 192, 171, 0.514);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}

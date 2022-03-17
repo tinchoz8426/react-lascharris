@@ -1,0 +1,15 @@
+.payment-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem
+}
+.payment-image-container img{
+    width: 100%;
+}
+
+.payment-list li{
+    font-size: 1.5rem;
+    list-style: none;
+    text-align: start;
+}

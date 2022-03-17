@@ -1,0 +1,65 @@
+.footer-container{
+    background-color: #ebabba;
+    padding-top: 2rem;
+    margin-top: auto;
+}
+.contact-title,
+.links-title,
+.extras-title,
+.social-title{
+    text-transform: uppercase;
+}
+.contact-tel,
+.contact-email,
+.contact-city{
+    display: flex;
+    align-items: center;
+}
+.contact-tel,
+.contact-email{
+    padding-bottom: 1.5rem;
+}
+.contact-tel p,
+.contact-email p,
+.contact-city p{
+    margin-bottom: 0;
+    padding-left: 0.5rem;
+}
+
+.links-list-container,
+.extras-list-container{
+    list-style: none;
+    padding-left: 0;
+}
+.links-item,
+.extras-item{
+    padding-bottom: 1rem; 
+}
+.links-item a,
+.extras-item a{
+    text-decoration: none;
+    color: black;
+}
+.links-item a:hover,
+.extras-item a:hover{
+    /* color: white; */
+    font-weight: bold;
+}
+
+.icons-social-container{
+    display: flex;
+    gap: 1rem;
+}
+.instagram-icon,
+.facebook-icon{
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+.instagram-icon:hover{
+    transform: scale(1.1);
+    color: #E1306C;
+}
+.facebook-icon:hover{
+    transform: scale(1.1);
+    color: #4267B2;
+}

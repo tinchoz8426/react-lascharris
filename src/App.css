@@ -1,0 +1,18 @@
+/* Font */
+@font-face {
+  font-family: "Tw-cent-mt";
+  src: url(assets/fonts/tw-cen-mt-medium.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --Variables-- */
+:root{
+  --color-primario: #4FC0AC;
+  --color-secundario: #f8f8f8;
+  --color-blanco: #fff;
+}
+
+*{
+  font-family: "Tw-cent-mt";
+}

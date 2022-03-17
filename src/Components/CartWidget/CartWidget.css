@@ -1,0 +1,10 @@
+.carrito {
+  display: inline;
+  color: #1a4300;
+
+  display: flex;
+  align-items: center;
+  background-color: #94d9d4;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+}
